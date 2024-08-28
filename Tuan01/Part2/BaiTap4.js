@@ -41,4 +41,3 @@ function calcAverage(arr){
 }
 // 4.3. Call the function with the 'totals' array
 console.log(calcAverage(totals));
-

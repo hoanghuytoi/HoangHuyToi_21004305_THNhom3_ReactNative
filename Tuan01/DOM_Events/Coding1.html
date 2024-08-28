@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess My Number!</title>
+  <style>
+    body {
+      background-color: #222;
+      color: #eee;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .number {
+      width: 15rem;
+      height: 15rem;
+      border-radius: 50%;
+      background-color: #eee;
+      color: #222;
+      font-size: 6rem;
+      text-align: center;
+      line-height: 15rem;
+      margin-right: 2rem;
+    }
+    .message {
+      font-size: 2rem;
+      margin-top: 2rem;
+    }
+    .guess {
+      width: 15rem;
+      height: 3rem;
+      font-size: 2rem;
+      text-align: center;
+    }
+    .score, .again {
+      margin-top: 2rem;
+      font-size: 2rem;
+    }
+    .again {
+      background-color: #eee;
+      color: #222;
+      padding: 1rem;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="game">
+    <p class="message">Start guessing...</p>
+    <p class="number">?</p>
+    <input type="number" class="guess" min="1" max="20">
+    <p class="score">Score: <span>20</span></p>
+    <button class="again">Again!</button>
+  </div>
+
+  <script>
+    let score = 20;
+    let secretNumber = Math.trunc(Math.random() * 20) + 1;
+
+    document.querySelector('.again').addEventListener('click', function() {
+      // Restore initial values
+      score = 20;
+      secretNumber = Math.trunc(Math.random() * 20) + 1;
+
+      // Restore initial conditions
+      document.querySelector('.message').textContent = 'Start guessing...';
+      document.querySelector('.number').textContent = '?';
+      document.querySelector('.score span').textContent = score;
+      document.querySelector('.guess').value = '';
+
+      // Restore original styles
+      document.querySelector('body').style.backgroundColor = '#222';
+      document.querySelector('.number').style.width = '15rem';
+    });
+  </script>
+
+</body>
+</html>

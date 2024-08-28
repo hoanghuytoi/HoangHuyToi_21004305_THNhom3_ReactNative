@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll App</title>
+</head>
+<body>
+
+    <button id="pollButton">Answer poll</button>
+
+    <script>
+        const poll = {
+            question: "What is your favourite programming language?", // Câu hỏi của khảo sát
+            options: ["JavaScript", "Python", "Rust", "C++"], // Danh sách các tùy chọn
+            answers: new Array(4).fill(0), // Mảng để đếm số lần trả lời cho mỗi tùy chọn, khởi tạo với 0
+
+            registerNewAnswer: function () {
+                // Hiển thị câu hỏi và các tùy chọn cho người dùng
+                const optionsText = this.options
+                    .map((option, index) => `${index}: ${option}`) // Tạo chuỗi hiển thị các tùy chọn kèm theo chỉ số
+                    .join('\n'); // Nối các tùy chọn thành một chuỗi với dấu xuống dòng
+                
+                // Hiện hộp thoại prompt cho người dùng nhập lựa chọn
+                const input = prompt(`${this.question}\n${optionsText}\n(Write option number)`);
+
+                // Chuyển đổi đầu vào thành số
+                const selectedOption = Number(input);
+
+                // Kiểm tra tính hợp lệ của đầu vào
+                if (selectedOption >= 0 && selectedOption < this.answers.length) {
+                    // Nếu đầu vào hợp lệ, tăng số lượng trả lời cho tùy chọn tương ứng
+                    this.answers[selectedOption]++;
+                    this.displayResults(); // Gọi phương thức hiển thị kết quả
+                } else {
+                    // Nếu đầu vào không hợp lệ, hiển thị cảnh báo
+                    alert('Please enter a valid option number!');
+                }
+            },
+
+            displayResults: function (type = 'array') {
+                // Phương thức hiển thị kết quả
+                if (type === 'string') {
+                    // Nếu loại là 'string', hiển thị kết quả dưới dạng chuỗi
+                    console.log(`Poll results are ${this.answers.join(', ')}`);
+                } else {
+                    // Mặc định, hiển thị kết quả dưới dạng mảng
+                    console.log(this.answers);
+                }
+            }
+        };
+
+        // Thêm sự kiện click cho nút khảo sát
+        document.getElementById('pollButton').addEventListener('click', function () {
+            poll.registerNewAnswer(); // Gọi phương thức đăng ký câu trả lời mới
+        });
+
+        // Dữ liệu thử nghiệm cho phần thưởng
+        const testData1 = [5, 2, 3]; // Dữ liệu thử nghiệm 1
+        const testData2 = [1, 5, 3, 9, 6, 1]; // Dữ liệu thử nghiệm 2
+
+        // Sử dụng call để hiển thị kết quả với dữ liệu thử nghiệm
+        poll.displayResults.call({ answers: testData1 }, 'array'); // Hiển thị dữ liệu thử nghiệm 1
+        poll.displayResults.call({ answers: testData2 }, 'string'); // Hiển thị dữ liệu thử nghiệm 2
+    </script>
+
+</body>
+</html>

@@ -19,3 +19,4 @@ console.log("Mark's BMI: " + markBMI);
 console.log("John's BMI: " + johnBMI);
 console.log("Is Mark's BMI higher than John's? " + markHigherBMI);
 
+

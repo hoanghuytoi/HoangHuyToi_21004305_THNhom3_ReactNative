@@ -1,4 +1,3 @@
-```markdown
 # Tài Liệu & Bài Tập Lab React Native
 
 👋 Chào mừng bạn đến với tài liệu học tập và bài tập Lab React Native! Trong kho lưu trữ này, bạn sẽ tìm thấy các tài liệu hướng dẫn và bài tập được tổ chức theo từng tuần.

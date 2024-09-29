@@ -1,12 +1,13 @@
+```markdown
 # Tài Liệu & Bài Tập Lab React Native
 
 👋 Chào mừng bạn đến với tài liệu học tập và bài tập Lab React Native! Trong kho lưu trữ này, bạn sẽ tìm thấy các tài liệu hướng dẫn và bài tập được tổ chức theo từng tuần.
 
 ## Mục Lục
 
-- [Tài liệu học tập](#tài-liệu-học-tập)
-- [Hướng dẫn cài đặt môi trường React Native](#hướng-dẫn-cài-đặt-môi-trường-react-native)
-- [Liên hệ](#liên-hệ)
+- [Tài Liệu Học Tập](#tài-liệu-học-tập)
+- [Hướng Dẫn Cài Đặt Môi Trường React Native](#hướng-dẫn-cài-đặt-môi-trường-react-native)
+- [Liên Hệ](#liên-hệ)
 
 ## Tài Liệu Học Tập
 
@@ -18,51 +19,56 @@
 
 ## Hướng Dẫn Cài Đặt Môi Trường React Native
 
-### Bước 1: Cài đặt Node.js
+### Bước 1: Cài Đặt Node.js
 
 1. Tải và cài đặt Node.js từ [trang chủ Node.js](https://nodejs.org/).
 2. Kiểm tra phiên bản đã cài đặt bằng lệnh:
    ```bash
    node -v
+   ```
 
-### Bước 2: Cài đặt React Native CLI
-    Mở terminal hoặc command prompt và chạy lệnh sau:
-    ```bash
-    npm install -g react-native-cli
+### Bước 2: Cài Đặt React Native CLI
 
-### Bước 3: Cài đặt Android Studio (đối với Android)
-    Tải và cài đặt Android Studio.
-    Trong Android Studio, cài đặt SDK và các công cụ cần thiết:
+Mở terminal hoặc command prompt và chạy lệnh sau:
+```bash
+npm install -g react-native-cli
+```
 
-        Mở SDK Manager và cài đặt:
+### Bước 3: Cài Đặt Android Studio (đối với Android)
 
-        Android SDK
+1. Tải và cài đặt Android Studio.
+2. Trong Android Studio, cài đặt SDK và các công cụ cần thiết:
+   - Mở SDK Manager và cài đặt:
+     - Android SDK
+     - Android SDK Platform-Tools
+     - Android Emulator
 
-        Android SDK Platform-Tools
+### Bước 4: Cài Đặt Xcode (đối với iOS)
 
-        Android Emulator
+1. Tải và cài đặt Xcode.
+2. Mở Xcode và cài đặt thêm các công cụ dòng lệnh (Command Line Tools).
 
-### Bước 4: Cài đặt Xcode (đối với iOS)
-    Tải và cài đặt Xcode.
-    Mở Xcode và cài đặt thêm các công cụ dòng lệnh (Command Line Tools).
+### Bước 5: Tạo Dự Án Mới
 
-### Bước 5: Tạo dự án mới
-    Chạy lệnh sau để tạo một dự án React Native mới:
-    npx react-native init MyProject
+Chạy lệnh sau để tạo một dự án React Native mới:
+```bash
+npx react-native init MyProject
+```
 
-### Bước 6: Chạy ứng dụng
-    1. Đối với Android:
-        ```bash
-        cd MyProject
-        npx react-native run-android
+### Bước 6: Chạy Ứng Dụng
 
-    2. Đối với iOS:
-        ```bash
-        cd MyProject
-        npx react-native run-ios
+1. Đối với Android:
+   ```bash
+   cd MyProject
+   npx react-native run-android
+   ```
 
-Liên Hệ:
+2. Đối với iOS:
+   ```bash
+   cd MyProject
+   npx react-native run-ios
+   ```
 
-    --- HOÀNG HUY TỚI ---
+## Liên Hệ
 
-
+**--- HOÀNG HUY TỚI ---**

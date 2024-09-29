@@ -25,35 +25,44 @@
    ```bash
    node -v
 
-Bước 2: Cài đặt React Native CLI
+### Bước 2: Cài đặt React Native CLI
     Mở terminal hoặc command prompt và chạy lệnh sau:
+    ```bash
     npm install -g react-native-cli
 
-Bước 3: Cài đặt Android Studio (đối với Android)
+### Bước 3: Cài đặt Android Studio (đối với Android)
     Tải và cài đặt Android Studio.
     Trong Android Studio, cài đặt SDK và các công cụ cần thiết:
+
         Mở SDK Manager và cài đặt:
+
         Android SDK
+
         Android SDK Platform-Tools
+
         Android Emulator
 
-Bước 4: Cài đặt Xcode (đối với iOS)
+### Bước 4: Cài đặt Xcode (đối với iOS)
     Tải và cài đặt Xcode.
     Mở Xcode và cài đặt thêm các công cụ dòng lệnh (Command Line Tools).
 
-Bước 5: Tạo dự án mới
+### Bước 5: Tạo dự án mới
     Chạy lệnh sau để tạo một dự án React Native mới:
     npx react-native init MyProject
 
-Bước 6: Chạy ứng dụng
-    Đối với Android:
+### Bước 6: Chạy ứng dụng
+    1. Đối với Android:
+        ```bash
         cd MyProject
         npx react-native run-android
-    Đối với iOS:
+
+    2. Đối với iOS:
+        ```bash
         cd MyProject
         npx react-native run-ios
 
 Liên Hệ:
+
     --- HOÀNG HUY TỚI ---
 
 

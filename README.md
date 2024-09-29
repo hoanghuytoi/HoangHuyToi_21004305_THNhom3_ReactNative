@@ -44,8 +44,12 @@ npm install -g react-native-cli
 
 ### Bước 4: Cài Đặt Xcode (đối với iOS)
 
-1. Tải và cài đặt Xcode.
-2. Mở Xcode và cài đặt thêm các công cụ dòng lệnh (Command Line Tools).
+1. Tải và cài đặt Xcode từ App Store.
+2. Mở Xcode và cài đặt thêm các công cụ dòng lệnh (Command Line Tools):
+   - Mở Terminal và chạy lệnh:
+     ```bash
+     xcode-select --install
+     ```
 
 ### Bước 5: Tạo Dự Án Mới
 
@@ -56,17 +60,23 @@ npx react-native init MyProject
 
 ### Bước 6: Chạy Ứng Dụng
 
-1. Đối với Android:
+1. **Đối với Android**:
+   - Mở emulator hoặc kết nối thiết bị Android.
    ```bash
    cd MyProject
    npx react-native run-android
    ```
 
-2. Đối với iOS:
+2. **Đối với iOS**:
+   - Mở Xcode và chọn simulator hoặc kết nối thiết bị iOS.
    ```bash
    cd MyProject
    npx react-native run-ios
    ```
+
+### Lưu Ý
+- Đảm bảo bạn đã cài đặt Java Development Kit (JDK) cho Android.
+- Kiểm tra kết nối Internet để tải các gói cần thiết.
 
 ## Liên Hệ
 

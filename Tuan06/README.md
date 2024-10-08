@@ -5,6 +5,9 @@ Thiết kế giao diện react native với React Navigation, truyền data qua 
 
 ## Demo
 
-Lab07_a
-![Demo](https://github.com/hoanghuytoi/HoangHuyToi_21004305_THNhom3_ReactNative/blob/main/Tuan06/DemoLab07_a.gif)
+Lab07_API_Screen
+![Demo](https://github.com/hoanghuytoi/HoangHuyToi_21004305_THNhom3_ReactNative/blob/main/Tuan06/Demo_Lab07_API_Screen.gif)
+
+Lab07_Master-Portrait
+![Demo](https://github.com/hoanghuytoi/HoangHuyToi_21004305_THNhom3_ReactNative/blob/main/Tuan06/Demo_Lab07_Master-portrait.gif)
 

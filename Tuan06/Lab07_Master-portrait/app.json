@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "lab07_master-portrait",
+    "slug": "snack-740eb366-d49f-4745-b647-3ed7f7eb75df",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

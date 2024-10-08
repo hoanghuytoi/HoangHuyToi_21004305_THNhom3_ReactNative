@@ -47,20 +47,23 @@ Chạy lệnh sau để tạo một dự án React Native mới với Expo:
 ```bash
 npx create-expo-app@latest MyProject
 ```
+Sau đó, vào thư mục dự án và cài đặt các phụ thuộc:
+```bash
+cd MyProject
+npm install
+```
 
 ### Bước 5: Chạy Ứng Dụng
 
 1. **Đối với Android**:
    - Mở emulator hoặc kết nối thiết bị Android.
    ```bash
-   cd MyProject
    npm start
    ```
 
 2. **Đối với iOS**:
    - Mở Xcode và chọn simulator hoặc kết nối thiết bị iOS.
    ```bash
-   cd MyProject
    npm start
    ```
 

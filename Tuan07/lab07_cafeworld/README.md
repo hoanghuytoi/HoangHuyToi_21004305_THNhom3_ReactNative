@@ -6,8 +6,8 @@ Thiết kế giao diện react native với React Navigation, truyền data qua 
 ## Demo
 
 Lab07_CafeWorld
-![Demo](https://github.com/hoanghuytoi/HoangHuyToi_21004305_THNhom3_ReactNative/blob/main/Tuan06/Demo_Lab07_API_Screen.gif)
+![Demo](https://github.com/hoanghuytoi/HoangHuyToi_21004305_THNhom3_ReactNative/blob/main/Tuan07/demo/Home.PNG?raw=true)
 
 Lab07_Master-Portrait
-![Demo](https://github.com/hoanghuytoi/HoangHuyToi_21004305_THNhom3_ReactNative/blob/main/Tuan06/Demo_Lab07_Master-portrait.gif)
+![Demo](https://github.com/hoanghuytoi/HoangHuyToi_21004305_THNhom3_ReactNative/blob/main/Tuan07/demo/ShopNear.PNG?raw=true)
 

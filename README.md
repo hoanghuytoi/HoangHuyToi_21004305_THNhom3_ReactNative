@@ -14,6 +14,8 @@
 - [Tuần 04](https://github.com/hoanghuytoi/HoangHuyToi_21004305_THNhom3_ReactNative/tree/main/Tuan04)
 - [Tuần 05](https://github.com/hoanghuytoi/HoangHuyToi_21004305_THNhom3_ReactNative/tree/main/Tuan05)
 - [Tuần 06](https://github.com/hoanghuytoi/HoangHuyToi_21004305_THNhom3_ReactNative/tree/main/Tuan06)
+- [Tuần 07](https://github.com/hoanghuytoi/HoangHuyToi_21004305_THNhom3_ReactNative/tree/main/Tuan07)
+- [BTKiemTraTH/BaiKiemTraTH](https://github.com/hoanghuytoi/HoangHuyToi_21004305_THNhom3_ReactNative/tree/main/BTKiemTraTH/BaiKiemTraTH)
 
 ## Hướng Dẫn Cài Đặt Môi Trường React Native
 

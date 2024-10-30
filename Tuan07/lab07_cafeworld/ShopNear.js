@@ -28,15 +28,11 @@ const ShopNear = ({ navigation }) => {
       address: '1167 GE 54 St',
       imageUrl: 'https://i.postimg.cc/yxjsjGKv/Image-1.png',
     },
-    {
-      id: '4',
-      name: 'Javasti Cafe',
-      status: 'Temporary Unavailable',
-      time: '15-20 minutes',
-      address: '1167 GE 54 St',
-      imageUrl: 'https://i.postimg.cc/P5gsWHZd/Image-2.png',
-    },
   ];
+
+  const navigateToDrinks = (shop) => {
+    navigation.navigate('Drinks', { shop });
+  };
 
   return (
     <SafeAreaView style={styles.container}>
@@ -52,7 +48,9 @@ const ShopNear = ({ navigation }) => {
           data={shops}
           renderItem={({ item }) => (
             <View style={styles.shopCard}>
-              <Image source={{ uri: item.imageUrl }} style={styles.shopImage} />
+              <TouchableOpacity onPress={() => navigateToDrinks(item)}>
+                <Image source={{ uri: item.imageUrl }} style={styles.shopImage} />
+              </TouchableOpacity>
               <View style={styles.shopInfo}>
                 <Text style={styles.shopName}>{item.name}</Text>
                 <Text style={styles.shopStatus}>{item.status}</Text>
